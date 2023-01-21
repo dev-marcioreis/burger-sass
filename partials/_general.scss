@@ -1,7 +1,8 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: 8rem;
-    // overflow: hidden;
+    font-size: 90%;
+    overflow: hidden;
 
     &::-webkit-scrollbar{
         width: .5rem;
@@ -20,7 +21,8 @@ html {
 body {
     line-height: 1.5;
     color: $black;
-    background: $primary-color;
+    background: $bg-color;
+    height: 100vh;
     user-select: none;
 }
 .container {
@@ -63,13 +65,7 @@ section{
        box-shadow: $shadow;
     }
  }
- .logo {
-    display: flex;
-    align-items: center;
- }
- .logo img {
-    width: 10%;
- }
+
 
 
 
