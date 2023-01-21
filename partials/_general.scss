@@ -1,15 +1,15 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: 8rem;
-    font-size: 62.5%;
-    overflow: hidden;
+    // overflow: hidden;
 
     &::-webkit-scrollbar{
-        width: 1rem;
+        width: .5rem;
      }
   
      &::-webkit-scrollbar-track{
         background: $black;
+        border-radius: 5rem;
      }
   
      &::-webkit-scrollbar-thumb{
@@ -47,7 +47,6 @@ section{
        margin-block-start: 1rem;
     }
  }
- 
 .btn{
     display: inline-block;
     margin-block-start: 1rem;
@@ -64,5 +63,13 @@ section{
        box-shadow: $shadow;
     }
  }
+ .logo {
+    display: flex;
+    align-items: center;
+ }
+ .logo img {
+    width: 10%;
+ }
+
 
 
