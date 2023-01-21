@@ -52,6 +52,7 @@
     }
 
     .navbar {
+        position: relative;
         display: flex;
         
         a {
@@ -71,6 +72,33 @@
             }
         }
 
+    }
+}
+
+
+/*==========Media Query 1024px==========*/
+@media (max-width: 1024px) {
+    .header {
+
+        #menu-open-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: absolute;
+            flex-direction: column;
+            gap: 2rem;
+            top: 99%;
+            padding: 1.5rem 1rem;
+            background: $white;
+            box-shadow: $shadow;
+            display: none;
+
+            a {
+                display: block;
+                color: $black;
+            }
+        }
     }
 }
 
