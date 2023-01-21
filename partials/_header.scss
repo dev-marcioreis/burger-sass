@@ -88,11 +88,27 @@
             position: absolute;
             flex-direction: column;
             gap: 2rem;
-            top: 99%;
+            top: 100%;
             padding: 1.5rem 1rem;
             background: $white;
             box-shadow: $shadow;
             display: none;
+            opacity: 0;
+            visibility: hidden;
+            animation: flipNavbar 1s ease forwards;
+            transform-origin: top;
+            perspective: 500px;
+
+            @keyframes flipNavbar {
+                0% {
+                    transform: rotateX(100deg);
+                }
+                100% {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: rotateX(0deg);
+                }
+            }
 
             a {
                 display: block;
