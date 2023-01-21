@@ -73,6 +73,11 @@
         }
 
     }
+    
+}
+
+.scrolling {
+    background: $black;
 }
 
 
@@ -88,10 +93,9 @@
             position: absolute;
             flex-direction: column;
             gap: 2rem;
-            top: 100%;
+            top: 110%;
             padding: 1.5rem 1rem;
-            background: $white;
-            box-shadow: $shadow;
+            box-shadow: $shadow-1;
             display: none;
             opacity: 0;
             visibility: hidden;
@@ -112,7 +116,7 @@
 
             a {
                 display: block;
-                color: $black;
+                color: $white;
             }
         }
     }

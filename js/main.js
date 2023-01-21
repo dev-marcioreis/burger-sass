@@ -23,3 +23,7 @@ if(window.innerWidth < 1024) {
         })
     })
 }
+
+window.addEventListener('scroll', () => {
+    document.querySelector('.header').classList.toggle('scrolling', window.scrollY > 0)
+})
