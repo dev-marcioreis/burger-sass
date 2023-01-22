@@ -2,4 +2,4 @@
 Iniciando projeto em HTML, SASS e JavaScript.<br>
 Este projeto é uma hamburgueria.<br>
 Link de acesso: https://dev-marcioreis.github.io/burger-sass/
-![image](https://user-images.githubusercontent.com/122680054/213918895-710fe9f6-8daa-48b8-a2bb-848675a43506.png)
+![image](https://user-images.githubusercontent.com/122680054/213920877-3e214183-e5be-47a9-a0ff-7ff4ecf97db4.png)
