@@ -53,16 +53,18 @@ section{
     display: inline-block;
     margin-block-start: 1rem;
     color:$white;
-    background: no-repeat;
-    font-size: 1.7rem;
-    padding: 1rem 3rem;
-    box-shadow: $shadow-1;
+    font-weight: 700;
+    background: $black;
+    border-radius: .2rem;
+    font-size: 1.4rem;
+    padding: .6rem 2rem;
+    box-shadow: $shadow;
     cursor: pointer;
-    transition: all 300ms ease;
+    transition: $transition;
  
     &:hover{
-       background: $secondary-color;
-       box-shadow: $shadow;
+       background: $transparent-color;
+       transform: scale(1.04);
     }
  }
 
