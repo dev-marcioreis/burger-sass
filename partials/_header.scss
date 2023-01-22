@@ -10,6 +10,28 @@
     padding: 1rem 7%; 
     box-shadow: $shadow-1;
     z-index: 100;
+
+    .circle1, .circle2 {
+        position: absolute;
+        filter: blur(100px);
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        opacity: .8;
+        z-index: -1;
+    }
+
+    .circle1 {
+        background-color: $white;
+        top: 25rem;
+        left: -20rem;
+    }
+
+    .circle2 {
+        background-color: $primary-color;
+        top: 7rem;
+        right: -15rem;
+    }
     
     #menu-open-btn, #menu-close-btn {
         font-size: 2.5rem;
