@@ -22,33 +22,32 @@ body {
     color: $black;
     background: $bg-color;
     user-select: none;
-    height: 100vh;
 }
 .container {
     width: $cont-large;
     margin: 0 auto;
 }
 img {
-    display: block;
     width: 100%;
 }
 h1, h2, h3, h4, h5 {
     line-height: 1.2;
 }
-section{
+section {
     margin-block-start: 6rem;
     padding: 3rem 9%;
  }
-.heading{
+.headers {
     text-align: center;
     margin-block-end: 3rem;
  
     h3{
-       font-size: 3rem;
+       font-size: 2rem;
        margin-block-start: 1rem;
+       color: $white;
     }
  }
-.btn{
+.btn {
     display: inline-block;
     margin-block-start: 1rem;
     color:$white;
