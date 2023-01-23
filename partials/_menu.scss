@@ -57,3 +57,49 @@
 }
 
 
+/*==========Media Query 1024px==========*/
+@media (max-width: 1024px) {
+    .menu {
+
+        .menu-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+
+/*==========Media Query 768px==========*/ 
+@media (max-width: 768px) {
+    .menu {
+
+        .headers {
+
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .menu-container {
+            grid-template-columns: 1fr;
+
+            .box {
+
+                img {
+                    width: 15rem;
+                }
+
+                .content {
+
+                    h3 {
+                        font-size: 1.2rem;
+                        letter-spacing: 1px;
+                    }
+
+                    .price {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

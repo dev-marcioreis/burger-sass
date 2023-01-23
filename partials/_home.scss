@@ -7,6 +7,10 @@
         text-align: center;
         margin: 0 auto;
 
+        img {
+            width: 100%;
+        }
+
         h3 {
             font-size: 3.5rem;
             color: $white;
@@ -39,8 +43,8 @@
     }
 }
 
-/*==========Media Query 600px==========*/
-@media (max-width: 600px) {
+/*==========Media Query 768px==========*/
+@media (max-width: 768px) {
     .home {
         margin-block-start: 5rem;
     
