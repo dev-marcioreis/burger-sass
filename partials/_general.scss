@@ -44,7 +44,7 @@ section{
     margin-block-end: 3rem;
  
     h3{
-       @include title-text(3rem);
+       font-size: 3rem;
        margin-block-start: 1rem;
     }
  }
