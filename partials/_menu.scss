@@ -1,0 +1,59 @@
+.menu {
+
+    .headers {
+        box-shadow: $shadow-2;
+        padding: .5rem 0;
+    }
+
+    .menu-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        .box {
+            text-align: center;
+            box-shadow: $shadow;
+            padding: 1rem;
+
+            img {
+                width: 20rem;
+                transition: $transition;
+
+                &:hover {
+                    transform: translateY(1.5rem);
+                }
+            }
+
+            .content {
+                padding: .5rem 0;
+
+                .box-icons {
+                    margin-block-end: 1rem;
+
+                    i {
+                        font-size: 1.3rem;
+                        color: $primary-color;
+                    }
+                }
+
+                h3 {
+                    color: $white;
+                    font-size: 1.5rem;
+                    letter-spacing: -1px;
+                }
+
+                .price {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: $white;
+                }
+
+                .btn {
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+
