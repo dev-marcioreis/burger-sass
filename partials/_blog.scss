@@ -74,3 +74,24 @@
 }
 
 
+/*==========Media Query 1024px==========*/
+@media (max-width: 1024px) {
+    .blog {
+
+        .blog-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+        }
+    }
+}
+
+
+/*==========Media Query 768px==========*/
+@media (max-width: 768px) {
+    .blog {
+
+        .blog-container {
+            grid-template-columns: 1fr;
+        }
+    }
+}
