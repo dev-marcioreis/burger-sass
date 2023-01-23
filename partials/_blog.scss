@@ -1,0 +1,76 @@
+.blog {
+
+    .headers {
+        box-shadow: $shadow-2;
+        padding: .5rem 0;
+    }
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        .box {
+            position: relative;
+
+            .blog-image {
+                position: relative;
+                overflow: hidden;
+                box-shadow: $shadow;
+                border-radius: 1rem;
+                transition: $transition;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                .blog-icons {
+                    position: absolute;
+                    top: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    box-shadow: $shadow;
+
+                    a {
+                        font-size: .9rem;
+                        color: $white;
+
+                        i {
+                            color: $primary-color;
+                        }
+                    }
+                }
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 60%;
+                }
+            }
+
+            .content {
+                margin-block-start: 1rem;
+
+                h3 {
+                    text-align: center;
+                    color: $white;
+                    margin-block-end: .5rem;
+                }
+
+                p {
+                    text-align: justify;
+                    font-size: 1rem;
+                }
+
+                .btn {
+                    background: $white;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+
