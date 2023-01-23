@@ -1,15 +1,11 @@
 .home {
     display: flex;
-    margin-block-start: 4rem;
+    margin-block-start: 3rem;
 
     .home-content {
         max-width: 70rem;
         text-align: center;
         margin: 0 auto;
-
-        img {
-            width: 100%;
-        }
 
         h3 {
             font-size: 3.5rem;
@@ -25,21 +21,37 @@
     }
 }
 
+/*==========Media Query 1024px==========*/
+@media (max-width: 1024px) {
+    .home {
 
-/*==========Media Query==========*/
+        .home-content {
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+            }
+        }
+
+    }
+}
+
+/*==========Media Query 600px==========*/
 @media (max-width: 600px) {
     .home {
-        margin-block-start: 6rem;
+        margin-block-start: 5rem;
     
         .home-content {
-            max-width: 70rem;
     
             h3 {
                 font-size: 2.5rem;
             }
     
             p {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
             }
         }
     }
