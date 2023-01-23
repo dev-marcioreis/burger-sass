@@ -105,7 +105,8 @@
             gap: 2rem;
             top: 110%;
             padding: 1.5rem 1rem;
-            box-shadow: $shadow-1;
+            box-shadow: $shadow;
+            background: $bg-color;
             display: none;
             opacity: 0;
             visibility: hidden;
