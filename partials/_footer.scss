@@ -1,0 +1,53 @@
+footer {
+    margin-block-start: 6rem;
+    padding: 3rem 9%;
+    box-shadow: $shadow-1;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+        color: $primary-color;
+        font-size: 2rem;
+        letter-spacing: -2px;
+        font-weight: 900;
+        text-transform: uppercase;
+        transition: $transition;
+
+        &:hover {
+            color: $white;
+        }
+
+        img {
+            width: 35px;
+            margin-right: -3px;
+        }
+    }
+
+    p {
+        font-size: 1.7rem;
+        font-weight: 300;
+        letter-spacing: -1px;
+        color: $white;
+        margin-block-start: -1rem;
+    }
+
+    .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+        margin-block-start: 2rem;
+
+        a {
+            font-size: 1.2rem;
+            color: $primary-color;
+            transition: $transition;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+
+}
