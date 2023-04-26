@@ -6,7 +6,7 @@ Este projeto é uma hamburgueria e foi desenvolvido para cliente.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 SASS
 
 ## ✒️ Autor
